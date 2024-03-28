@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="Navbar"> 
    
       <div className="wrapper">
-        <span>Lama dev</span>
+       
         <Sidebar/>
         <div className="social">
             <a href="#"><img src="/linkedin.png" alt=""/></a>

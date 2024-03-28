@@ -5,9 +5,11 @@
       justify-content:center;
     background-color:white;
     color:black;
+    height:100%;
+    width:100%;
 
 .bg {
-     
+     z-index:999;
     position:fixed;
     top:0;
     left:0;
@@ -39,6 +41,7 @@
         background-color:transparent;
         border:none;
         cursor:pointer;
+        z-index:9999;
 
     }
 }}
