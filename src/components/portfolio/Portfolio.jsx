@@ -6,25 +6,25 @@ const items = [
   {
     id: 1,
     title: "react commerce",
-    image: "/youtube.png",
+    image: "twitter.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum cumque qui expedita laborum veritatis vero necessitatibus aspernatur! Atque voluptas possimus officiis cum inventore. Possimus deserunt doloribus asperiores minus porro."
   },
   {
     id: 2,
     title: "react commerce",
-    image: "/youtube.png",
+    image: "twitter.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum cumque qui expedita laborum veritatis vero necessitatibus aspernatur! Atque voluptas possimus officiis cum inventore. Possimus deserunt doloribus asperiores minus porro."
   },
   {
     id: 3,
     title: "react commerce",
-    image: "/youtube.png",
+    image: "twitter.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum cumque qui expedita laborum veritatis vero necessitatibus aspernatur! Atque voluptas possimus officiis cum inventore. Possimus deserunt doloribus asperiores minus porro."
   },
   {
     id: 4,
     title: "react commerce",
-    image: "/youtube.png",
+    image: "twitter.png",
     desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum cumque qui expedita laborum veritatis vero necessitatibus aspernatur! Atque voluptas possimus officiis cum inventore. Possimus deserunt doloribus asperiores minus porro."
   }
 ];
@@ -34,17 +34,18 @@ const items = [
 const Single = ({ item }) => {
     const ref=useRef(); 
     const {scrollYProgress}= useScroll( {
-        target:ref,
+        target:ref
+        
        
     
     })
     const y = useTransform(scrollYProgress, [0,1], [-300,300])
   return (
 
-    <section ref={ref}>
+    <section>
         <div className="container">
             <div className="wrapper">
-                <div className="imageContainer">
+                <div className="imageContainer"  ref={ref}>
      <img src= {item.image}></img></div>
       <motion.div className="textContainer" style={{y}}>
         <h2>{item.title}</h2>

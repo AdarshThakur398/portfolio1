@@ -13,7 +13,7 @@ const App = () => {
          <Hero/></section>
 
          <section id="services"><Parallax type="services"/></section>
-         <section><Services/></section>
+         <section id="services"><Services/></section>
          <section id="portfolio"><Parallax type="portfolio"/></section>
          <Portfolio/>
          <section id="contacts">Contact</section>
