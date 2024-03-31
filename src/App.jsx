@@ -6,18 +6,25 @@ import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
   return <div>
+         <Cursor/>
          <section id="Homepage">
           <Navbar/>
          <Hero/></section>
-
+         <Cursor/>
          <section id="services"><Parallax type="services"/></section>
+         <Cursor/>
          <section id="services"><Services/></section>
-         <section id="portfolio"><Parallax type="portfolio"/></section>
+         <Cursor/>
+         <section id="portfolio"> <Parallax type="portfolio"/> </section>
+         <Cursor/>
          <Portfolio/>
+        <Cursor/>
          <section id="contacts"><Contact/></section>
+         <Cursor/>
     </div> 
 };
 
