@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/navbar"
 import Test from "./Test"
 import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
 
 const App = () => {
   return <div>
@@ -14,7 +15,7 @@ const App = () => {
          <section id="services"><Parallax type="services"/></section>
          <section><Services/></section>
          <section id="portfolio"><Parallax type="portfolio"/></section>
-         <section>portfolio2</section>
+         <Portfolio/>
          <section id="contacts">Contact</section>
     </div> 
 };
