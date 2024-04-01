@@ -33,7 +33,7 @@ const items = [
   {
     id: 4,
     title: "Instagram-clone",
-    image: "twitter.png",
+    image: "114642041-cd935100-9cf0-11eb-9241-33bfc606a0b4.png",
     desc:"I've developed an Instagram clone using React and Material UI, replicating the familiar user interface and functionality of the popular social media platform. Users can browse through posts, like and comment on photos, and interact with a clean and intuitive design reminiscent of the original Instagram experience.",
     link:"https://github.com/AdarshThakur398/instagram-clone"
     

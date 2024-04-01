@@ -32,13 +32,14 @@ const isInView = useInView(ref,{margin:"-100px"})
         </motion.div>
         <motion.div className="titleContainer" variants={variants} >
             <motion.div className="title">
-                <img src="/pexels-negative-space-34600.jpg"></img>
-                <button>What I know?
+                <img src="h68x0up43hmknl5tjcww.webp"></img>
+                <button className="button-55">Skills I Know?
 
                 </button>
             </motion.div>
 
         </motion.div>
+
       <motion.div className= "listContainer" variants={variants} >
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}  >
           <img src="image copy 2.png "/>
@@ -56,7 +57,8 @@ const isInView = useInView(ref,{margin:"-100px"})
             <img src="logo_4x.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-            
+            <img src="bootstrap-logo.png"/>
+            <img src="tailwind-6ece120d.png"/>
         </motion.div>
       </motion.div>
     </motion.div>
