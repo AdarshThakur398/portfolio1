@@ -24,7 +24,9 @@ const ref=useRef()
 const isInView = useInView(ref,{margin:"-100px"})
 
   return (
-    <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={isInView && "animate"}>
+    
+
+    <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={"animate"}>
         <motion.div className="textContainer" variants={variants} >
           <motion.p>  I focus on helping your work grow <br/>
             and move forward</motion.p>
@@ -32,7 +34,8 @@ const isInView = useInView(ref,{margin:"-100px"})
         </motion.div>
         <motion.div className="titleContainer" variants={variants} >
             <motion.div className="title">
-                <img src="h68x0up43hmknl5tjcww.webp"></img>
+              <div className="imageBox">
+                <img src="h68x0up43hmknl5tjcww.webp"></img></div>
                 <button className="button-55">Skills I Know?
 
                 </button>
@@ -47,18 +50,18 @@ const isInView = useInView(ref,{margin:"-100px"})
           <img src="image copy 4.png"/>
         </motion.div> 
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-           <img src="image.png"/>
+           <img src="image.png"/><img src="885px-Node.js_logo.svg.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-         <img src="image copy 5.png"/><img src="885px-Node.js_logo.svg.png"/>
+         <img src="image copy 5.png"/>  <img src="logo_4x.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
             <img src="image copy 6.png"/>
-            <img src="logo_4x.png"/>
+           <img src="bootstrap-logo.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-            <img src="bootstrap-logo.png"/>
-            <img src="tailwind-6ece120d.png"/>
+           <img src="tailwind-6ece120d.png"/>
+            
         </motion.div>
       </motion.div>
     </motion.div>

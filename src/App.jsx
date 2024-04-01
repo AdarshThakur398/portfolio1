@@ -10,21 +10,20 @@ import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
   return <div>
-         <Cursor/>
+        <Cursor/> 
          <section id="Homepage">
           <Navbar/>
-         <Hero/></section>
-         <Cursor/>
-         <section id="services"><Parallax type="services"/></section>
-         <Cursor/>
-         <section id="services"><Services/></section>
-         <Cursor/>
-         <section id="portfolio"> <Parallax type="portfolio"/> </section>
-         <Cursor/>
-         <Portfolio/>
-        <Cursor/>
-         <section id="contacts"><Contact/></section>
-         <Cursor/>
+         <Hero/></section> <Cursor/> 
+      <section><Parallax type="services"/></section> 
+      <Cursor/> 
+      <section id="Skills"><Services/></section>
+      <Cursor/> 
+       <section id="Projects"> <Parallax type="Projects"/> </section>
+       <Cursor/> 
+    <Portfolio/> 
+      <Cursor/>
+         <section id="Contacts"><Contact/></section>
+         <Cursor/>   
     </div> 
 };
 

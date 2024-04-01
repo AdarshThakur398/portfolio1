@@ -8,9 +8,9 @@ const Navbar = () => {
        
         <Sidebar/>
         <div className="social">
-            <a href="#"><img src="/linkedin.png" alt=""/></a>
-            <a href="#"><img src="/instagram.png" alt=""/></a>
-            <a href="#"><img src="/twitter.png" alt=""/></a>
+            <a href="https://www.linkedin.com/in/adarsh-thakur-33457626a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img src="/linkedin.png" alt=""/></a>
+            <a href="https://www.instagram.com/adarsh.99i/"><img src="/instagram.png" alt=""/></a>
+            
         </div>
       </div>
     </div>
