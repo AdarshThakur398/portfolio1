@@ -17,9 +17,9 @@ const Cursor = () => {
         };
     }, []);
 
-    console.log(position);
+    
 
-    return <motion.div className="cursor" animate={{x:position.x-15,y:position.y-15}}></motion.div>;
+    return <motion.div className="cursor" animate={{x:position.x-18,y:position.y-18}}></motion.div>;
 };
 
 export default Cursor;

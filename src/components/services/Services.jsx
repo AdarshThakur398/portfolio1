@@ -26,7 +26,7 @@ const isInView = useInView(ref,{margin:"-100px"})
   return (
     <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={isInView && "animate"}>
         <motion.div className="textContainer" variants={variants} >
-          <motion.p>  I focus on helping your brand grow <br/>
+          <motion.p>  I focus on helping your work grow <br/>
             and move forward</motion.p>
             <hr/>
         </motion.div>
@@ -41,24 +41,22 @@ const isInView = useInView(ref,{margin:"-100px"})
         </motion.div>
       <motion.div className= "listContainer" variants={variants} >
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}  >
-            <h2>HTML and CSS</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sapiente neque, voluptate voluptas commodi quae totam tenetur incidunt aliquid blanditiis excepturi ipsa nesciunt tempore reiciendis minus dolor inventore veniam repellendus?</p>
+          <img src="image copy 2.png "/>
+          <img src="image copy 3.png "/>
+          <img src="image copy 4.png"/>
         </motion.div> 
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-            <h2>JAVASCRIPT</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sapiente neque, voluptate voluptas commodi quae totam tenetur incidunt aliquid blanditiis excepturi ipsa nesciunt tempore reiciendis minus dolor inventore veniam repellendus?</p>
+           <img src="image.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-            <h2>REACT</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sapiente neque, voluptate voluptas commodi quae totam tenetur incidunt aliquid blanditiis excepturi ipsa nesciunt tempore reiciendis minus dolor inventore veniam repellendus?</p>
+         <img src="image copy 5.png"/><img src="885px-Node.js_logo.svg.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-            <h2>NODE</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sapiente neque, voluptate voluptas commodi quae totam tenetur incidunt aliquid blanditiis excepturi ipsa nesciunt tempore reiciendis minus dolor inventore veniam repellendus?</p>
+            <img src="image copy 6.png"/>
+            <img src="logo_4x.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sapiente neque, voluptate voluptas commodi quae totam tenetur incidunt aliquid blanditiis excepturi ipsa nesciunt tempore reiciendis minus dolor inventore veniam repellendus?</p>
+            
         </motion.div>
       </motion.div>
     </motion.div>

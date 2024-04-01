@@ -3,6 +3,9 @@ import "./contact.scss"
 import {motion,useInView} from "framer-motion"
 import emailjs from '@emailjs/browser';
 
+
+
+
 const variants = {
     initial : {
         opacity:0,

@@ -69,10 +69,41 @@
       margin:auto;
 
       .box {
-        padding:50px;
+        width: 100%;
+        height: auto;
+        padding: 50px;
         border: 0.5px solid gray;
-        display:flex;
-        flex-direction:column;
-        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        object-fit: contain;
+        transition: background-color 0.3s, transform 0.3s;
+        background-color: transparent;
+        @property --a {
+          syntax:'<angle>';
+          inherits:false;
+          initial-value: 0deg;
       }
+      @keyframes animate {
+          0% {
+              --a:0deg;
+          }
+          100% {
+              --a:360deg;
+          }
+      }
+        img {
+          height: 100px;
+          width: 100px;
+          object-fit: contain;
+        }
+      
+        &:hover {
+          background-color: lightgray;
+          transform: scale(1.05);
+        }
+      }
+      
     }
