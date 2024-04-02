@@ -13,13 +13,22 @@
        justify-content: flex-end;
      padding:20px;
    }
-
+   @include tablet{
+             
+ 
+ padding:25px;
+    }
 
     span {
         font-weight:bold;
         @include mobile {
             display:none;
        }
+       @include tablet{
+            
+        display:none;
+        
+        }
     }
     .social {
            display:flex;

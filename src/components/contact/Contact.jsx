@@ -55,7 +55,7 @@ const Contact = () => {
     <motion.div className="textContainer" variants={variants}>
          <motion.h1 variants={variants}>Lets work Together!</motion.h1>
          <motion.div variants={variants} className="item">
-          <h2>EMail</h2>
+          <h2>Email</h2>
           <span>nutius90@gmail.com</span>
       
          </motion.div>
