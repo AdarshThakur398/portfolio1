@@ -22,19 +22,17 @@
             background-color: white;
             @include mobile{
             
-         display:none;
+         
               
               }
 
 
         }
+        @include mobile {
         h1 {
-          @include tablet{
-            
-            display:none;
-            
-            }
-        }
+          font-size:25px;
+         
+        }}
     }
 
     .container {

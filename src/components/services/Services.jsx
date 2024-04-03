@@ -18,6 +18,9 @@ const variants= {
      }
   }
 }
+if (window.innerWidth < 700) {
+  variants.animate.y = 20;
+} 
 const Services = () => {
 
 const ref=useRef()

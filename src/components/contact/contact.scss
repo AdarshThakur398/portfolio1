@@ -28,7 +28,8 @@
        width: 100%;
        padding:20px;
        height:85%;
-       margin:auto
+       margin:auto;
+       gap:8px;
       
       }
    
@@ -50,8 +51,8 @@
           @include tablet{
             text-align:center;
             align-items:center;
-            gap:30px;
-            margin-top:100px;
+            gap:10px;
+            margin-top:150px;
           
           
           }
@@ -89,6 +90,7 @@
             
           padding:50px;
           width:100%;
+           margin-bottom: 50px;
           
           }
 
