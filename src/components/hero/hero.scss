@@ -20,7 +20,7 @@
             flex-direction:column;
             justify-content: center;
             gap:40px;
-            z-index:555;
+           
             @include mobile {
                width:100%;
                height: 50%;
@@ -35,6 +35,7 @@
                 font-size: 30px;
                 color:rebeccapurple;
                 letter-spacing: 10px;
+                z-index:555;
 
             }
             h1 {
