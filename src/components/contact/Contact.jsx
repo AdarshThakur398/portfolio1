@@ -21,6 +21,13 @@ const variants = {
      }
 }
 
+
+
+    if (window.innerWidth < 700) {
+        variants.animate.y = 30;
+    } 
+
+
 const Contact = () => {
     const ref = useRef()
     const [error,setError] = useState(false)
