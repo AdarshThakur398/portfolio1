@@ -20,6 +20,7 @@
             flex-direction:column;
             justify-content: center;
             gap:40px;
+            object-fit:contain;
            
             @include mobile {
                width:100%;
