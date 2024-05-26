@@ -19,8 +19,8 @@ const items = [
     id: 2,
     title: "YELPCAMP 2023",
     image: "Screenshot 2024-04-01 132238.png",
-    desc: "YelpCamp is a web application showcasing tourist destinations, their locations, and prices, employing HTML, CSS, JavaScript, React for the frontend, and Node.js, Express.js, MongoDB for the backend, featuring user authentication, CRUD operations, and interactive location display.",
-    link:"https://github.com/AdarshThakur398/yelpcamp"
+    desc: "YelpCamp is a web application showcasing tourist destinations, their locations, and prices, employing HTML, CSS, JavaScript,  for the frontend, and Node.js, Express.js, MongoDB for the backend, featuring user authentication, CRUD operations, and interactive location display.",
+    link:"https://yelpcamp-1-oelg.onrender.com/"
   },
   
   {
