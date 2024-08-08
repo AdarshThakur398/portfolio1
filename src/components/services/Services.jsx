@@ -56,15 +56,15 @@ const isInView = useInView(ref,{margin:"-100px"})
            <img src="image.png"/><img src="885px-Node.js_logo.svg.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-         <img src="image copy 5.png"/>  <img src="logo_4x.png"/>
+         <img src="image copy 5.png"/>  <img src="OIP (1).jpeg"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
             <img src="image copy 6.png"/>
-           <img src="bootstrap-logo.png"/>
+           <img src="logo_4x.png"/>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
            <img src="tailwind-6ece120d.png"/>
-           <img src="OIP (1).jpeg"/>
+           <img src="bootstrap-logo.png"/>
             
         </motion.div>
       </motion.div>
