@@ -11,12 +11,25 @@ const items = [
     link:"https://www.eedconferencenith.in/"
   },
   
-  
+  {
+    id: 2,
+    title: "Doom",
+    image: "Screenshot 2024-08-08 175935.png",
+    desc:"Doom is a cutting-edge online meeting platform built with Next.js, Tailwind CSS, and TypeScript. Designed as an alternative to Zoom, it offers a seamless and intuitive user experience for virtual meetings. With a focus on speed, simplicity, and modern web standards, Doom ensures reliable and efficient communication for users worldwide.",
+    link:"doom-six.vercel.app"
+
+    
+    
+    
+    
+    
+    
+  },
   
   {
 
 
-    id: 2,
+    id: 3,
     title: "YELPCAMP 2023",
     image: "Screenshot 2024-04-01 132238.png",
     desc: "YelpCamp is a web application showcasing tourist destinations, their locations, and prices, employing HTML, CSS, JavaScript,  for the frontend, and Node.js, Express.js, MongoDB for the backend, featuring user authentication, CRUD operations, and interactive location display.",
@@ -24,14 +37,14 @@ const items = [
   },
   
   {
-    id: 3,
+    id: 4,
     title: "PERSONAL PORTFOLIO",
     image: "Screenshot 2024-04-01 140555.png",
     desc: "I have crafted a visually dynamic portfolio using React and Framer Motion, leveraging the power of declarative components and smooth animations to showcase my skills, projects, and experiences in an engaging and interactive manner.",
     link:"https://github.com/AdarshThakur398/portfolio1"
   },
   {
-    id: 4,
+    id: 5,
     title: "Instagram-clone",
     image: "114642041-cd935100-9cf0-11eb-9241-33bfc606a0b4.png",
     desc:"I've developed an Instagram clone using React and Material UI, replicating the familiar user interface and functionality of the popular social media platform. Users can browse through posts, like and comment on photos, and interact with a clean and intuitive design reminiscent of the original Instagram experience.",
