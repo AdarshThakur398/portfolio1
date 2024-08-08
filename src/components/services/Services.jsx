@@ -64,7 +64,7 @@ const isInView = useInView(ref,{margin:"-100px"})
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
            <img src="tailwind-6ece120d.png"/>
-           <img src="OIP.jpeg"/>
+           <img src="OIP (1).jpeg"/>
             
         </motion.div>
       </motion.div>
