@@ -6,7 +6,7 @@ import {motion,useScroll,useSpring,useTransform,} from "framer-motion"
 const items = [
   {
     id: 1,
-    title: "INSTITUTE WEBSITE",
+    title: "INSTITUTE WEBSITE.",
     image: "Screenshot 2024-04-01 135300.png",
     desc: "I have developed a website for NIT Hamirpur as per their instructions, which includes details about various activities in our department. The website showcases comprehensive information about academic programs, faculty, research projects, events, and facilities offered by the department, serving as a central platform for students, faculty, and visitors to access relevant information efficiently. LINK: https://www.eedconferencenith.in/",
     link:"https://www.eedconferencenith.in/"
@@ -85,8 +85,8 @@ const Single = ({ item }) => {
      <img src= {item.image}></img></div>
       <motion.div className="textContainer" style={{y}}>
         <h2>{item.title}</h2>
-        <p>{item.desc}</p>
-        <button onClick={() => handleButton(item.link)}>SHOW</button>
+        <p>{item.desc}
+        <button onClick={() => handleButton(item.link)}>SHOW</button></p>
       </motion.div></div></div>
     </section>
   )
