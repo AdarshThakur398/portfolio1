@@ -1,7 +1,6 @@
 import {useRef,useState} from 'react';
 import "./portfolio.scss";
 import {motion,useScroll,useSpring,useTransform,} from "framer-motion"
-import { Button } from "@/components/ui/button"
 
 
 const items = [
@@ -75,7 +74,7 @@ const Single = ({ item }) => {
     })
     const y = useTransform(scrollYProgress, [0,1], [-300,300])
     const handleButton = (link) => {
-                 window.location.href=link;
+          window.location.href=link;
     }
   return (
 
@@ -87,7 +86,7 @@ const Single = ({ item }) => {
       <motion.div className="textContainer" style={{y}}>
         <h2>{item.title}</h2>
         <p>{item.desc}</p>
-        <Button className='impbutton' onClick={() => handleButton(item.link   )}>SHOW</Button>
+        <button onClick={() => handleButton(item.link)}>SHOW</button>
       </motion.div></div></div>
     </section>
   )

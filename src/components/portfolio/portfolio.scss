@@ -21,7 +21,7 @@
             height:10px;
             background-color: white;
             @include mobile{
-            
+            visibility: hidden;
          
               
               }
@@ -108,14 +108,20 @@
                 font-size:16px;
               }
         }
-        Button {
-            background-color:orange;
-            border:none;
-            border-radius:10px;
-            padding:10px;
-            width:200px;
-            cursor:pointer;
+        button {
+          background-color: orange;
+          border: none;
+          border-radius: 10px;
+          padding: 10px;
+          width: 200px;
+          cursor: pointer;
+          font-size: 16px; 
+          font-weight: bold; 
+          color: white; 
+          text-align: center;
+          transition: background-color 0.3s ease; 
         }
+        
     }}}
 }
 .mobo {
@@ -124,10 +130,4 @@
   }
 }
 
-.progressBar {
-  @include mobile{
-  visibility: hidden; }
-}
-.impbutton {
-  z-index:999;
-}
+
