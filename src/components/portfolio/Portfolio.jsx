@@ -85,7 +85,7 @@ const Single = ({ item }) => {
       <motion.div className="textContainer" style={{y}}>
         <h2>{item.title}</h2>
         <p>{item.desc}</p>
-        <button onClick={() => handleButton(item.link)}>SHOW</button>
+        <button className='impbutton' onClick={() => handleButton(item.link)}>SHOW</button>
       </motion.div></div></div>
     </section>
   )
