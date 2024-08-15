@@ -118,3 +118,8 @@
         }
     }}}
 }
+.mobo {
+  @include mobile {
+    visibility: hidden;
+  }
+}
