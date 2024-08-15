@@ -125,7 +125,8 @@
 }
 
 .progressBar {
-  visibility: hidden;
+  @include mobile{
+  visibility: hidden; }
 }
 .impbutton {
   z-index:999;
