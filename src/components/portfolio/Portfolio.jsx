@@ -6,7 +6,7 @@ import {motion,useScroll,useSpring,useTransform,} from "framer-motion"
 const items = [
   {
     id: 1,
-    title: "INSTITUTE WEBSITE.",
+    title: "INSTITUTE WEBSITE",
     image: "Screenshot 2024-04-01 135300.png",
     desc: "I have developed a website for NIT Hamirpur as per their instructions, which includes details about various activities in our department. The website showcases comprehensive information about academic programs, faculty, research projects, events, and facilities offered by the department, serving as a central platform for students, faculty, and visitors to access relevant information efficiently. LINK: https://www.eedconferencenith.in/",
     link:"https://www.eedconferencenith.in/"
@@ -15,7 +15,7 @@ const items = [
   {
     id: 2,
     title: "Yoom",
-    image: "Screenshot 2024-08-08 175935.png",
+    image: "Screenshot 2024-08-16 165246.png",
     desc:"Yoom is a cutting-edge online meeting platform built with Next.js, Tailwind CSS, and TypeScript. Designed as an alternative to Zoom, it offers a seamless and intuitive user experience for virtual meetings. With a focus on speed, simplicity, and modern web standards, Doom ensures reliable and efficient communication for users worldwide. LINK: https://doom-six.vercel.app/",
     link:"https://doom-six.vercel.app/"
 
