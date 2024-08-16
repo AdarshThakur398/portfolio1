@@ -63,33 +63,34 @@ const items = [
 
 
 const Single = ({ item }) => {
+  const ref = useRef(); 
+  const { scrollYProgress } = useScroll({
+    target: ref
+  });
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  
+  const handleButton = (link) => {
+    window.open(link, "_blank"); 
+  };
 
-
-    const ref=useRef(); 
-    const {scrollYProgress}= useScroll( {
-        target:ref
-        
-       
-    
-    })
-    const y = useTransform(scrollYProgress, [0,1], [-300,300])
-    const handleButton = (link) => {
-          window.location.href=link;
-    }
   return (
-
     <section>
-        <div className="container">
-            <div className="wrapper">
-                <div className="imageContainer"  ref={ref}>
-     <img src= {item.image}></img></div>
-      <motion.div className="textContainer" style={{y}}>
-        <h2>{item.title}</h2>
-        <p>{item.desc}
-        <button onClick={() => handleButton(item.link)}>SHOW</button></p>
-      </motion.div></div></div>
+      <div className="container">
+        <div className="wrapper">
+          <div className="imageContainer" ref={ref}>
+            <img src={item.image} alt={item.title}></img>
+          </div>
+          <motion.div className="textContainer" style={{ y }}>
+            <h2>{item.title}</h2>
+            <p>{item.desc}</p>
+            <button onClick={() => handleButton(item.link)} aria-label={`Go to ${item.title}`}>
+              SHOW
+            </button>
+          </motion.div>
+        </div>
+      </div>
     </section>
-  )
+  );
 };
 
 

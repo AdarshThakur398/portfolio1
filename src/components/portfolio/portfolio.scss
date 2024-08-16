@@ -20,9 +20,7 @@
         .progressBar {
             height:10px;
             background-color: white;
-            @include mobile{
-            visibility: hidden;
-              }
+          
 
 
         }
@@ -83,6 +81,10 @@
             display:flex;
             flex-direction:column;
             gap:30px;
+           
+              pointer-events: auto;
+            
+            
 
            @include mobile {
         
@@ -118,6 +120,8 @@
           color: white; 
           text-align: center;
           transition: background-color 0.3s ease; 
+          z-index: 10; 
+          position: relative;
         }
         
     }}}
