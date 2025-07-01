@@ -17,7 +17,7 @@ const items = [
     title: "Yoom",
     image: "Screenshot 2024-08-16 165246.png",
     desc:"Yoom is a cutting-edge online meeting platform built with Next.js, Tailwind CSS, and TypeScript. Designed as an alternative to Zoom, it offers a seamless and intuitive user experience for virtual meetings. With a focus on speed, simplicity, and modern web standards, Yoom ensures reliable and efficient communication for users worldwide. LINK: https://doom-six.vercel.app/",
-    link:"https://doom-six.vercel.app/"
+    link:"yoom-adarshthakur398s-projects.vercel.app/"
 
     
     
