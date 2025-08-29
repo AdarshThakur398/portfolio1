@@ -19,8 +19,8 @@ const items = [
       id: 2,
     title: "YELPCAMP 2023",
     image: "Screenshot 2024-04-01 132238.png",
-    desc: "YelpCamp is a web application showcasing tourist destinations, their locations, and prices, employing HTML, CSS, JavaScript,  for the frontend, and Node.js, Express.js, MongoDB for the backend, featuring user authentication, CRUD operations, and interactive location display.LINK: https://yelpcamp-1-oelg.onrender.com/",
-    link:"https://yelpcamp-1-oelg.onrender.com/"
+    desc: "YelpCamp is a web application showcasing tourist destinations, their locations, and prices, employing HTML, CSS, JavaScript,  for the frontend, and Node.js, Express.js, MongoDB for the backend, featuring user authentication, CRUD operations, and interactive location display.LINK: https://yelpcamp99.onrender.com/",
+    link:"https://yelpcamp99.onrender.com/"
     
     
   },
@@ -41,8 +41,8 @@ const items = [
      id: 4,
     title: "Blockchain-Decentralized-Auth",
     image: "image copy 8.png",
-    desc:"Developed a blockchain based dApp using Next.js, Node.js, and MongoDB Atlas for user management Implemented MetaMask login via nonce-based signature verification and jwt tokens. Built protected routes displaying account balance and current blockchain network (Ethereum, Polygon, BSC). LINK:",
-    link:"https://github.com/AdarshThakur398/Blockchain-Decentralized-Auth"
+    desc:"Developed a blockchain based dApp using Next.js, Node.js, and MongoDB Atlas for user management Implemented MetaMask login via nonce-based signature verification and jwt tokens. Built protected routes displaying account balance and current blockchain network (Ethereum, Polygon, BSC). LINK: https://blockchain-decentralized-auth.onrender.com/",
+    link:"https://blockchain-decentralized-auth.onrender.com/"
     
     
   },
